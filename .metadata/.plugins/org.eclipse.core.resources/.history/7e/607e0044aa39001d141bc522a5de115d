@@ -1,0 +1,14 @@
+package miniProjectAsalSayi;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int number =25;
+		//bir sayıyı başka sayıya kaln operatör
+		int remainder =number % 2;
+		System.out.println(remainder);
+		
+
+	}
+
+}

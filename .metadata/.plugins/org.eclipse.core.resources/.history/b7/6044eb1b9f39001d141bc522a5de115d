@@ -1,0 +1,18 @@
+package stringsDemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String mesaj ="Bugün hava çok güzel";
+		
+		System.out.println(mesaj);
+		
+		//eleman sayısı
+		System.out.println("Eleman sayısı:" +mesaj.length()); 
+		
+		//karakterin 5.elemanını bulmak için mesela
+		System.out.println("5.elemen" +mesaj.charAt(4)); 
+
+	}
+
+}
