@@ -1,0 +1,12 @@
+package oop1;
+//PascalCase:class isimleri büyük başlar.
+public class Product {
+	String name;
+	//CamelCase: Fieldların yazım şekli iki kelimeli alanlar büyük.
+	double unitPrice;
+	double discount;
+	String imageUrl;
+	//String[] imageUrl;
+	int unitsInStock;
+	
+}

@@ -1,0 +1,48 @@
+package oop1;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		String message = "Vade Oranı";
+
+		Product product1 = new Product();
+		// set value : değer atama yapıyoruz.
+		product1.setName("Delonghi Kahve Makinesi");
+		product1.setDiscount(7);
+		product1.setUnitPrice(7500);
+		product1.setUnitsInStock(3);
+		product1.setImageUrl("bilmemne1.jpg");
+		
+		// get değerleri okuyor.
+
+		/*
+		 * System.out.println(product1.name); System.out.println(product1.unitPrice);
+		 * System.out.println(product1.discount);
+		 * System.out.println(product1.unitsInStock);
+		 * System.out.println(product1.imageUrl);
+		 */
+
+		Product product2 = new Product();
+		
+		
+
+		Product product3 = new Product();
+		
+		
+		// tüm ürünler ekranı oluşturmak için önümüzde
+		
+		Product[] products = {product1,product2, product3};
+		
+		System.out.println("");
+		
+		for(Product product : products) {
+			System.out.println(product.name);
+			
+		}
+		System.out.println("");
+		
+		
+	}
+
+}
